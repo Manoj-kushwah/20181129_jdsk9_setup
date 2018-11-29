@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=jdesk9
+Comment=jdesk9 app
+Exec=/usr/games/jdesk9
+Icon=/usr/share/jdesk9/jdesk9icon.svg
+Terminal=false
+Type=Application
+Categories=Game
+StartupNotify=true
+X-GNOME-Autostart-enabled=true
