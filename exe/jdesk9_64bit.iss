@@ -7,8 +7,8 @@
 #define MyAppPublisher "jdesk9, Inc."
 #define MyAppURL "http://www.jdesk9.com/"
 #define MyAppExeName "jdesk.bat"
-#define MyAppDir "C:\Users\Dell1\Desktop\manoj\exe"
-#define MyAppExeDest "C:\Users\Dell1\Desktop\manoj\exe\2018_11_22_01"
+#define MyAppDir "E:\manoj\projects\2018\20181129_jdsk9_setup\exe"
+#define MyAppExeDest "E:\manoj\projects\2018\20181129_jdsk9_setup\target\2018_11_22_01"
 #define MyAppArch "64bit"
 
 [Setup]
@@ -25,8 +25,9 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName=c:\{#MyAppName}
 DisableProgramGroupPage=yes
-OutputDir={#MyAppExeDest}\{#MyAppArch}
-OutputBaseFilename=setup
+OutputDir={#MyAppExeDest}\
+; Setup file name
+OutputBaseFilename={#MyAppName}({#MyAppArch})
 SetupIconFile={#MyAppDir}\resources\icon128.ico
 Compression=lzma
 SolidCompression=yes
