@@ -1,11 +1,14 @@
 #!/bin/sh
  
 PACKAGE_NAME="jdesk9"
+OS_ARCH="64bit"
 PACKAGE_VERSION="0.1.1"
 SOURCE_DIR=$PWD
+OUT_DIR="target"
 TEMP_DIR="/tmp"
-JRE_DIR=$PWD/jre
- 
+JRE_DIR=$PWD/java/jre
+
+mkdir -p $SOURCE_DIR/../$OUT_DIR
 mkdir -p $TEMP_DIR/debian/DEBIAN
 mkdir -p $TEMP_DIR/debian/lib
 mkdir -p $TEMP_DIR/debian/usr/games
@@ -42,5 +45,6 @@ chgrp -R root $TEMP_DIR/debian/
  
 cd $TEMP_DIR/
 dpkg --build debian
-mv debian.deb $SOURCE_DIR/$PACKAGE_NAME-$PACKAGE_VERSION.deb
+#mv debian.deb $SOURCE_DIR/$PACKAGE_NAME-$PACKAGE_VERSION.deb
+mv debian.deb $SOURCE_DIR/../$OUT_DIR/$PACKAGE_NAME\($OS_ARCH\).deb
 rm -r $TEMP_DIR/debian

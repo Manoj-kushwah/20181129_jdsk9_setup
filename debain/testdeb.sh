@@ -1,1 +1,1 @@
-lintian -i *.deb
+lintian -i ../target/*.deb

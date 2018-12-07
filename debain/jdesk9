@@ -2,4 +2,4 @@
 mkdir -p $HOME/.config/autostart/
 cp /usr/share/applications/jdesk9.desktop $HOME/.config/autostart/
 cd /usr/share/jdesk9/bin
-./java -noverify -jar jdesk9.jar
+./java -noverify -jar JtepSpring.jar
