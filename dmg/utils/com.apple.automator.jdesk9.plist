@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Disabled</key>
+        <false/>
+        <key>KeepAlive</key>
+        <true/>
+        <key>Label</key>
+        <string>com.apple.automator.jdesk9</string>
+        <key>LimitLoadToSessionType</key>
+        <array>
+                <string>Aqua</string>
+        </array>
+        <key>ProgramArguments</key>
+        <array>
+                <string>/Applications/jdesk9.app/Contents/MacOS/Application Stub</string>
+                <string>-RunAsAgent</string>
+                <string>YES</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>WorkingDirectory</key>
+        <string>/Applications/jdesk9.app/Contents/MacOS</string>
+</dict>
+</plist>
+
+
