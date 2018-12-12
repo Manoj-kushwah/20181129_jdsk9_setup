@@ -8,7 +8,7 @@
 #define MyAppURL "http://www.jdesk9.com/"
 #define MyAppExeName "jdesk.bat"
 #define MyAppDir "E:\manoj\projects\2018\20181129_jdsk9_setup\exe"
-#define MyAppExeDest "E:\manoj\projects\2018\20181129_jdsk9_setup\target\2018_11_22_01"
+#define MyAppExeDest "E:\manoj\projects\2018\20181129_jdsk9_setup\target\"
 #define MyAppArch "32bit"
 
 [Setup]
