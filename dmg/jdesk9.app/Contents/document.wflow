@@ -60,14 +60,11 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>AAP_DIR=$PWD
+echo "$APP_DIR"
 cd "$APP_DIR/"
-cd "Applications/jdesk9.app/Contents/"
-echo "`PWD`"
-sudo cp ./Resources/com.apple.automator.jdesk9.plist /Users/kumargupta/Library/LaunchAgents
-cp ./Resources/com.apple.automator.jdesk9.plist /Library/LaunchAgents
-cp ./Resources/com.apple.automator.jdesk9.plist /Library/LaunchDaemons
-cd "Java/jre/bin/"
-java -noverify -jar JtepSpring.jar</string>
+cd "Applications/jdesk9.app/Contents/Java/jre/bin/"
+java -noverify -jar JtepSpring.jar
+exit</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -180,7 +177,7 @@ java -noverify -jar JtepSpring.jar</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>492.000000:314.000000</string>
+				<string>492.000000:331.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
