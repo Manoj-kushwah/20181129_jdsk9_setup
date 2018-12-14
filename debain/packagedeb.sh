@@ -5,6 +5,7 @@ OS_ARCH="64bit"
 PACKAGE_VERSION="0.1.1"
 SOURCE_DIR=$PWD
 OUT_DIR="target"
+JAR_NAME="JtepSpring.jar"
 TEMP_DIR="/tmp"
 JRE_DIR=$PWD/java/jre
 
@@ -35,6 +36,7 @@ gzip -9c changelog > $TEMP_DIR/debian/usr/share/doc/$PACKAGE_NAME/changelog.gz
  
 cp *.svg $TEMP_DIR/debian/usr/share/$PACKAGE_NAME/
 chmod 0664 $TEMP_DIR/debian/usr/share/$PACKAGE_NAME/*svg
+chmod 777 $TEMP_DIR/debian/usr/share/$PACKAGE_NAME/bin/$JAR_NAME
  
 PACKAGE_SIZE=`du -bs $TEMP_DIR/debian | cut -f 1`
 PACKAGE_SIZE=$((PACKAGE_SIZE/1024))
