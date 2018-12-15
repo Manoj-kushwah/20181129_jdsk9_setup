@@ -63,7 +63,7 @@
 echo "$APP_DIR"
 cd "$APP_DIR/"
 cd "Applications/jdesk9.app/Contents/Java/jre/bin/"
-java -noverify -jar JtepSpring.jar
+./java -noverify -jar JtepSpring.jar
 exit</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -177,7 +177,7 @@ exit</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>492.000000:331.000000</string>
+				<string>492.000000:309.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
