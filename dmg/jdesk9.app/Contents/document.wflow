@@ -59,11 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>AAP_DIR=$PWD
-echo "$APP_DIR"
-cd "$APP_DIR/"
-cd "Applications/jdesk9.app/Contents/Java/jre/bin/"
-./jdesk9 -noverify -jar JtepSpring.jar
+					<string>/Applications/jdesk9.app/Contents/Java/jre/bin/jdesk9 -noverify -jar /Applications/jdesk9.app/Contents/Java/jre/bin/JtepSpring.jar
 exit</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -177,7 +173,7 @@ exit</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:252.000000</string>
+				<string>449.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
