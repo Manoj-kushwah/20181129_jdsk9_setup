@@ -7,14 +7,14 @@
         <key>KeepAlive</key>
         <true/>
         <key>Label</key>
-        <string>com.apple.automator.jdesk9</string>
+        <string>com.apple.jdesk9</string>
         <key>LimitLoadToSessionType</key>
         <array>
                 <string>Aqua</string>
         </array>
         <key>ProgramArguments</key>
         <array>
-                <string>/Applications/jdesk9.app/Contents/MacOS/Application Stub</string>
+                <string>/Applications/jdesk9.app/Contents/MacOS/jdesk9</string>
                 <string>-RunAsAgent</string>
                 <string>YES</string>
         </array>
